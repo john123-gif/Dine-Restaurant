@@ -1,0 +1,1049 @@
+
+:root{
+    --color-white: white;
+    --color-ebony-clay: #242B37;
+    --color-shuttle-gray: #9ba4b3;
+    --color-black: rgb(10, 10, 10);
+    --color-beaver: #9E7F66;
+    --color-mirage: #17192B;
+}
+body{
+    margin: 0;
+    font-family: monospace;
+ 
+    /****************SECTION 1***************/   
+}
+.container1{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    height: 770px;
+    background-image: url(assets/images/homepage/hero-bg-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dark{
+    width: 500px;
+    height: inherit;
+    background-color: rgb(10, 10, 10);
+    color: var(--color-white);
+}
+.intro-text{
+    margin-left: 150px;
+    width: 600px;
+    height: 300px;
+}
+h1{
+    margin-top: 130px;
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-size: 65px;
+    line-height: 70px;
+    word-spacing: -12px;
+}
+.light-bg-h2{
+    font-size: 40px;
+
+}
+.dark-bg-paragraph{
+    color: var(--color-white);
+    margin-top: 0;
+    word-spacing: -3px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.dark-bg-book-button{
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    word-spacing: 5px;
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+    background-color: var(--color-black);
+    padding: 20px 55px;
+}
+.dark-bg-book-button:hover{
+    background-color: var(--color-white);
+    color: var(--color-ebony-clay);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*****************SECTION 2***************/
+.container2{
+    margin-bottom: 0;
+    width: 100%;
+    height: 750px;
+    background-image: url(assets/images/patterns/pattern-curve-top-right.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 57%;
+    background-size: 800px 350px;
+}
+.indexed-img1{
+    z-index: 1;
+    position: absolute;
+    left: 150px;
+    top: 700px;
+    width: 500px;
+    height: 710px;
+    background-image: url(assets/images/homepage/enjoyable-place-desktop@2x.jpg);
+    background-size: cover;
+    box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.5);
+}
+.indexed-img1 > img{
+    width: inherit;
+    height: inherit;
+}
+.family-rec-text{
+    margin-top: 200px;
+    text-align: left;
+    float: right;
+    width: 600px;
+    height: 400px;
+}
+.light-bg-h3{
+    color: var(--color-ebony-clay);
+    font-size: 40px;
+    word-spacing: -12px;
+    font-weight: bolder;
+}
+
+.light-bg-paragraph{
+    height: 100px;
+    color: var(--color-ebony-clay);
+    word-spacing: -3px;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+/*******************SECTION 3******************/
+.container3{
+    margin-top: 0;
+    width: 100%;
+    height: 600px;
+    background-image: url(assets/images/patterns/pattern-curve-top-left.svg);
+    background-repeat: no-repeat;
+    background-size: 800px 350px;
+    background-position: 570px 300px;
+}
+.local-rec-text{
+    margin-left: 150px;
+    margin-top: 200px;
+    width: 550px;
+    height: 400px;
+}
+.indexed-img2{
+    z-index: 1;
+    position: absolute;
+    top: 1650px;
+    left: 760px;
+    width: 530px;
+    height: 730px;
+    background-image: url(assets/images/homepage/locally-sourced-desktop@2x.jpg);
+    background-size: cover;
+}
+.indexed-img2 > img{
+    width: inherit;
+    height: inherit;
+}
+
+/*********************SECTION 4***************/
+.container4{
+    background-color: var(--color-black);
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 550px;
+}
+.highlight-text{
+    margin-left: 170px;
+    margin-top: 50px;
+    width: 540px;
+    height: 400px;
+}
+.highlight-menu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 530px;
+    height: 435px;
+}
+
+.dark-bg-h3{
+    color: var(--color-white);
+    font-size: 40px;
+    word-spacing: -12px;
+    font-weight: bolder;
+}
+.salmon-fillet{
+    display: flex;
+    flex-direction: row;
+    color: var(--color-white);
+    border-bottom: 0.01px solid var(--color-ebony-clay);
+    width: inherit;
+    height: calc(420px/3);
+    background-image: url(assets/images/icons/icon-minus.svg);
+    background-repeat: no-repeat;
+    background-position: 85px 35px;
+    background-size: 50px 1px;
+}
+.salmon-fillet-img{
+    margin-top: 20px;
+    height: 100px;
+    width: inherit;
+    background-image: url(assets/images/homepage/salmon-desktop-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rosemary-filet{
+    display: flex;
+    flex-direction: row;
+    color: var(--color-white);
+    border-bottom: 0.01px solid var(--color-ebony-clay);
+    width: inherit;
+    height: calc(420px/3);
+    background-image: url(assets/images/icons/icon-minus.svg);
+    background-repeat: no-repeat;
+    background-position: 85px 35px;
+    background-size: 50px 1px;
+}
+.rosemary-filet-img{
+    margin-top: 20px;
+    width: inherit;
+    height: 100px;
+    background-image: url(assets/images/homepage/beef-desktop-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.summer-fruit{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    color: var(--color-white);
+    height: calc(420px/3);
+    background-image: url(assets/images/icons/icon-minus.svg);
+    background-repeat: no-repeat;
+    background-position: 85px 35px;
+    background-size: 50px 1px;
+}
+
+.summer-fruit-img{
+    margin-top: 20px;
+    width: inherit;
+    height: 100px;
+    background-image: url(assets/images/homepage/chocolate-desktop-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h4{
+    font-size: 18px;
+    width: 300px;
+    height: 30px;
+    margin-top: 27px;
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+.menu-p{
+    text-align: left;
+    font-size: 14px;
+    width: 380px;
+    height: 80px;
+    margin-left: 60px;
+    margin-top: 3px;
+    height: fit-content;
+}
+.menu-h4-p{
+    display: flex;
+    flex-direction: column;
+}
+#indexed-svg{
+    width: 100px;
+    z-index: 2;
+    position: relative;
+    bottom: 185px;
+    float: right;
+}
+
+/****************SECTION 5***************/
+.container5{
+    display: flex;
+    flex-direction: row;
+    padding-top: 160px;
+    width: 100%;
+    height: 770px;
+    background-image: url(assets/images/patterns/pattern-curve-top-right.svg);
+    background-repeat: no-repeat;
+    background-size: 520px 330px;
+    background-position: 0 0;
+
+}
+
+.event-img{
+    margin-left: 150px;
+    height: 630px;
+    width: 530px;
+}
+/*.event-img > img{
+    width: inherit;
+    height: inherit;
+}*/
+.family-img{
+    width: inherit;
+    height: inherit;
+    background-image: url(assets/images/homepage/family-gathering-desktop@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.special-img{
+    width: inherit;
+    height: inherit;
+    background-image: url(assets/images/homepage/special-events-desktop@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.social-img{
+    width: inherit;
+    height: inherit;
+    background-image: url(assets/images/homepage/social-events-desktop@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#event-indexed-svg{
+    z-index: 1;
+    position: absolute;
+    top: 3142px;
+    left: 110px;  
+}
+.light-bg-book-button{
+    border: none;
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    word-spacing: 5px;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    padding: 20px 61px;
+}
+.light-bg-book-button:hover{
+    border: 0.5px solid var(--color-black);
+    background-color: var(--color-white);
+    color: var(--color-ebony-clay);
+    cursor: pointer;
+}
+.event-info{
+    text-align: left;
+    /*padding-left: 80px;*/
+    padding-top: 30px;
+    height: 600px;
+    width: 650px;
+  
+}
+.event-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 400px;
+    height: auto;
+}
+.event-desc{
+    margin-left: 120px;
+}
+
+.list-item{
+    padding-right: 0;
+    width: 100%;
+    height: 38px;
+
+}
+
+.event-btn{
+    text-align: left;
+    border: none;
+    color: grey;
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 100%;
+    padding-left: 115px;
+    height: inherit;
+    font-weight: bold;
+    background-color:var(--color-white);
+    word-spacing: 5px;
+}
+.list-item > input:hover{
+    cursor: pointer;
+    color: var(--color-black);
+}
+.list-item > input:focus{
+    background-image: url(assets/images/icons/icon-minus.svg);
+    background-repeat: no-repeat;
+    background-position: -25px center;
+    background-size: 125px 1px;
+}
+
+/***********SECTION 6*************/
+.container6{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 240px;
+    background-image: url(assets/images/homepage/ready-bg-desktop@2x.jpg);
+    background-size: cover;
+
+}
+.reservation-text{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.reservation-side-btn{
+    margin-top: 60px;
+    margin-left: 250px;
+    height: 100px;
+}
+.transparent-btn{
+    background: transparent;
+}
+
+
+/*************SECTION 7**************/
+.container7{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    width: 100%;
+    height: 210px;
+    background-color: var(--color-black);
+}
+.dine-text{
+    font-size: 50px;
+    color: var(--color-white);
+}
+.dine-div{
+    width: 150px;
+    margin-left: 150px;
+}
+.address{
+    margin-left: 160px;
+    margin-top: 40px;
+    width: 200px;
+    height: 100px;
+}
+.footer-p{
+    color: var(--color-white);
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+.time{
+    width: 300px;
+    line-height: 15px;
+}
+
+/******************************/
+/******RESERVATION SECTION*****/
+/******************************/
+
+.reservation-img{
+    color: var(--color-white);
+    background-image: url(assets/images/booking/hero-bg-desktop@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+}
+.reservation-container2{
+    width: 100%;
+    height: 320px;
+    background-image: url(assets/images/patterns/pattern-curve-bottom-right.svg);
+    background-repeat: no-repeat;
+    background-size: 500px inherit;
+}
+#reservation-svg{
+    margin-left: 43rem;
+    margin-top: 10rem;
+}
+.form-div{
+    background-color: var(--color-white);
+    width: 33rem;
+    height: 30.5rem;
+    z-index: 1;
+    position: absolute;
+    top: 270px;
+    left: 765px;
+}
+.form{
+    background-color: var(--color-white);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: inherit;
+}
+.form-input{
+    width: 100%;
+    height: 50px;
+}
+.pick{
+    margin-left: 30px;
+    width: 70%;
+}
+.submit-reservation{
+    border: none;
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    word-spacing: 5px;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    padding: 20px 140px;
+
+}
+input[type="text"]{
+    font-size: 15px;
+    height: 60px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+input[type="date"]{
+    border: none;
+    height: 60px;
+}
+input[type="time"]{
+    border: none;
+    height: 60px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator{
+    display: none;
+}
+input[type="time"]::-webkit-calendar-picker-indicator{
+    display: none;
+}
+input[type="submit"]{
+    font-size: 15px;
+}
+label{
+    font-size: 14px;
+    font-weight: bold;
+}
+.adress{
+    color: var(--color-white);
+}
+
+
+@media only screen and (max-width: 768px){
+    /**********GLOBAL ATTRIBUTES**********/
+    .light-bg-paragraph{
+        font-size: 20px;
+    }
+    .dark-bg-paragraph{
+        font-size: 20px;
+    }
+    .light-bg-h3{
+        text-align: center;
+    }
+    .light-bg-paragraph{
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+    }
+    /*************SECTION 1******/
+    .container1{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 70rem;
+        background-image: url(assets/images/homepage/hero-bg-tablet@2x.jpg);
+        background-size: 100% 80rem;
+    }
+   
+    .hero-image{
+        display: flex;
+    }
+    .dark{
+        display: flex;
+        float: right;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        height: 43rem;
+        width: inherit;
+    }
+    .dine-text{
+        margin-top: 0;
+    }
+    .h1{
+        font-size: 50px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        line-height: 50px;
+        margin-bottom: 60px;
+    }
+    .p1{
+        margin-top: 0;
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .b1{
+        margin-top: 60px;
+    }
+    .intro-text{
+        width: 100%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /***********SECTION 2*************/
+    .container2{
+        display: flex;
+        flex-direction: column;
+        background-image: url(assets/images/patterns/pattern-curve-top-right.svg);
+        background-repeat: no-repeat;
+        background-position: 0% 30%;
+        background-size: 400px 350px;
+    }
+    .indexed-img1{
+        position: absolute;
+        top: 65rem;
+        left: 5rem;
+        height: 400px;
+        width: 600px;
+        background-image: url(assets/images/homepage/enjoyable-place-tablet@2x.jpg);
+        background-size: cover;
+    }
+    .family-rec-text{
+        text-align: center;
+        margin-top: 22.2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /******SECTION 3*************/
+    .container3{
+        display: flex;
+        flex-direction: column;
+    }
+    #indexed-svg{
+        position: absolute;
+        top: 135rem;
+        left: 37rem;
+        width: 150px;
+    }
+    .indexed-img2{
+        top: 118rem;
+        left: 5rem;
+        height: 400px;
+        width: 600px;
+        background-image: url(assets/images/homepage/locally-sourced-tablet@2x.jpg);
+        background-size: cover;
+    }
+    .local-rec-text{
+        text-align: center;
+        margin-top: 30rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /***********SECTION 4*************/
+    .container4{
+        display: flex;
+        height: 63rem;
+        margin-top: 18rem;
+        flex-direction: column;
+    }
+    .highlight-text{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .highlight-menu{
+        width: 85%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .menu-h4-p{
+        text-align: left;
+        margin-right: 0;
+    }
+    
+    /***********SECTION 5************/
+    .container5{
+        padding-top: 110px;
+        display: flex;
+        flex-direction: column;
+        height: 60rem;
+        background-size: 400px 330px;
+        background-position: 0 0;
+    }
+    .event-img{
+        width: 650px;
+        height: 400px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .family-img{
+    background-image: url(assets/images/homepage/family-gathering-tablet@2x.jpg);
+    background-size: cover;
+    }
+    .special-img{
+    background-image: url(assets/images/homepage/special-events-tablet@2x.jpg);
+    background-size: cover;   
+    }
+    .social-img{
+    background-image: url(assets/images/homepage/social-events-tablet@2x.jpg);
+    background-size: cover;
+    }
+    .event-list{
+        display: flex;
+        flex-direction: row;
+    }
+    .event-info{
+        text-align: center;
+        display: flex;
+        margin: auto;
+        height: 20rem;
+        padding-top: 0;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .event-desc{
+        margin: auto;
+        width: 80%;
+    }
+    .event-list{
+        width: 100%;
+    }
+    #event-indexed-svg{
+        position: absolute;
+        top: 250.7rem;
+        left: 1.5rem;
+        width: 150px;
+    }
+    .list-item{
+        text-align: center;
+        width: 250px;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0;
+    }
+    .list-item > input:focus{
+        background-image: url(assets/images/icons/icon-minus.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 60px 2px;
+    }
+    .list-item > input{
+        padding: 20px 40px;
+    } 
+    /***********SECTION 6******************/
+    .container6{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+    }
+    .reservation-side-btn{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
+    .reservation-text{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    
+    /*********SECTION 7************/
+   .container7{
+       display: flex;
+       flex-direction: column;
+       height: 600px;
+       width: 100%;
+       padding: auto;
+       text-align: center;
+   }
+   .address{
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 20px;
+   } 
+   .address > p{
+       text-align: left;
+   }
+   .time{
+       margin-left: 17.5rem;
+       margin-right: auto;
+   }
+   .time > P{
+       text-align: left;
+   }
+   .res-dine{
+       position: absolute;
+       left: 50px;
+       margin: 0;  
+   }
+   .reservation-img{
+    }
+    .form-div{
+    left: 7rem;
+    }
+    #reservation-svg{
+    display: none;
+    }  
+}
+/***********RESERVATION SECTION************/
+
+
+
+
+@media only screen and (max-width: 600px){
+    #indexed-svg{
+        display: none;
+    }
+    .dark-bg-paragraph{
+        font-size: 13px;
+    }
+    .light-bg-paragraph{
+        font-size: 13px;
+    }
+    .light-bg-h3{
+        font-size: 30px;
+    }
+    .dark-bg-h3{
+        font-size: 30px;
+    }
+    /**********SECTION 1*****************/
+    .container1{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 50rem;
+        background-image: url(assets/images/homepage/hero-bg-mobile@2x.jpg);
+        background-size: contain;
+    }
+    .h1{
+        font-size: 34px;
+        width: 90%;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    .p1{
+        height: 100px;
+    }
+    .dark{
+        display: flex;
+        float: right;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        height: 34rem;
+        width: 100%;
+    }
+    /***************SECTION 2****************/
+    .container2{
+        display: flex;
+        flex-direction: column;
+        height: 44rem;
+        background-image: none;
+
+    }
+    .indexed-img1{
+        width: 80%;
+        top: 46rem;
+        left: 2.5rem;
+        background-image: url(assets/images/homepage/enjoyable-place-mobile@2x.jpg);
+        background-size: cover;
+    }
+    .family-rec-text{
+        width: 100%;
+        height: 18rem;
+        margin-top: 24.5rem;
+    }
+    
+    /*************SECTION 3*******************/
+    .container3{
+        flex-direction: column;
+        width: 100%;
+        height: 32rem;
+    }
+    .indexed-img2{
+        top: 95rem;
+        left: 2.5rem;
+        width: 80%;
+        background-image: url(assets/images/homepage/locally-sourced-mobile@2x.jpg);
+        background-size: cover;
+    }
+    .local-rec-text{
+        width: 100%;
+        height: 18.5rem;
+        margin-top: 30rem;
+       
+    }
+    /**************SECTION 4******************/
+    .container4{
+        width: 100%;
+        height: 120rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .container4 > svg{
+        display: none;
+    }
+    .highlight-menu{
+        height: 60rem;
+        display: flex;
+        flex-direction: column;
+        width: 84%;
+    }
+    .salmon-fillet{
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .salmon-fillet-img{
+        width: 100%;
+        height: 55rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .rosemary-filet{
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .rosemary-filet-img{
+        width: 100%;
+        height: 55rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .summer-fruit{
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .summer-fruit-img{
+        width: 100%;
+        height: 55rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .menu-h4-p{
+        width: 100%;
+        height: 10rem;
+        padding-left: 0;
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+    .menu-p{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0;
+        width: 90%;
+        height: 100px;
+    }
+    .menu-h4-p > h4{
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 0;
+        width: 100%;
+    }
+    /***********SECTION 5************/
+    .container5{
+        padding-top: 5rem;
+        height: 78rem;
+        background-image: none;
+    }
+    #event-indexed-svg{
+        display: none;
+    }
+    .family-img{
+        background-image: url(assets/images/homepage/family-gathering-mobile@2x.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+    .special-img{
+        background-image: url(assets/images/homepage/special-events-mobile@2x.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+    .social-img{
+        background-image: url(assets/images/homepage/social-events-mobile@2x.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+    .event-info{
+        flex-direction: column-reverse;
+    }
+    .event-desc{
+        width: 85%;
+    }
+    .event-img{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 80%;
+    }
+    .event-list{
+        width: 85%;
+        margin-top: 0;
+        padding-left: 60px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .event-desc > p{
+        width: 100%;
+        height: 150px;
+    }
+    /**********SECTION 6****************/
+    .container6{
+        text-align: center;
+        flex-direction: column;
+        height: 25rem;
+        background-image: url(assets/images/homepage/ready-bg-mobile@2x.jpg);
+    }.reservation-text{
+        word-spacing: -7px;
+    }
+    /**********FOOTER SECTION***************/
+    .container7{
+        flex-direction: column;
+    }
+    .time{
+        text-align: center;
+    }
+    .address{
+        text-align: center;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .address > p{
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .dine-div{
+        position: relative;
+        left: 7rem;
+        top: 3rem;
+    }
+}
