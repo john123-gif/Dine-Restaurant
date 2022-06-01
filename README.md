@@ -89,6 +89,5 @@ my font family use, font sizing, box shadowing, and more Importantly my text wra
 -(https://www.youtube.com) - understanding how to deploy/host project on the web using github. 
 
 ## Author
-- Website - [John Teye](https://portfolio-project100.herokuapp.com/)
 - linkedIn - [teyejohn](www.linkedin.com/in/teyejohn)
 
