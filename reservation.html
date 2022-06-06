@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="validation.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="reservation-img">
-            <h2 class="r-dine-text intro-text">dine</h2>
-            <h1></h1>
-            <p >We can’t wait to host you. If you have any special requirements please feel free to 
-                call on the phone number below. We’ll be happy to accommodate you.</p>
+        <div class="intro-text reservation-intro-div">
+            <h2 class="light-bg-h2 dine-text r-dine-text">dine</h2>
+            <h1 class="h1 r-h1">Reservations</h1>
+            <p class="dark-bg-paragraph r-p1">We can’t wait to host you. If you have any special<br> requirements please feel free to 
+                call on the phone<br> number below. We’ll be happy to accommodate you.</p>
+        </div>
     </div>
     <div class="reservation-container2">
         <svg id="reservation-svg" xmlns="http://www.w3.org/2000/svg" 
@@ -21,28 +24,49 @@
             14h160v6H0zM0 0h160v6H0z"/></g></svg>
             <div class="form-div">
                 <form action="" class="form">
-                    <input class="form-input" type="text" placeholder="Name" required><br>
-                    <input class="form-input" type="text" placeholder="Email" required pattern="[a-z@]+"><br>
-                    <label for="date">Pick a date</label>
-                    <input class="form-input pick pick-date" type="date" name="date" id=""><br>
-                    <label for="time">Pick a time</label>
-                    <input class="form-input pick pick-time" type="time" name="time" id=""><br>
-                    <input class="submit-reservation" type="submit" value="Make reservation">
+                    <input class="form-input" type="text" placeholder="Name" id="name" name="name" ><br>
+                    <input class="form-input" type="text" placeholder="Email" id="email" name="email" pattern="[a-z@]+"><br>
+                    <div class="form_date">
+                        <label for="date" id="date_label">Pick a date</label>
+                        <span class="custom_input_group">
+                            <input class="custom-input" type="number" placeholder="MM" name="month" id="month" min="1" max="12" maxlength="2">
+                            <input class="custom-input" type="number" placeholder="DD" name="day" id="day" min="1" max="31" maxlength="2">
+                            <input class="custom-input year-input" type="number" placeholder="YYYY" name="year" id="year" maxlength="4">
+                        </span>
+                    </div>
+                    <div class="form_time">
+                        <label for="time" id="time_label">Pick a time</label>
+                        <span class="custom_input_group">
+                             <input class="custom-input" type="number" placeholder="09" name="hour" id="" min="1" max="23" maxlength="2">
+                            <input class="custom-input" type="number" placeholder="00" name="minutes" id="" min="1" max="59" maxlength="2">
+                            <select class="custom-input" name="am_pm" id="">
+                                <option value="AM">AM</option>
+                                <option value="PM">PM</option>
+                            </select>
+                        </span>
+                       
+                    </div>
+                    <div class="select-people">
+                        <button type="button" class="plus-minus" id="minus"><img src="assets/images/icons/icon-minus.svg" alt="" srcset=""></button>
+                        <p class="number-of-people"><span id="count">0</span>People</p>
+                        <button type="button" class="plus-minus" id="plus"><img src="assets/images/icons/icon-plus.svg" alt="" srcset=""></button>
+                    </div>
+                    <input class="submit-reservation" type="submit" id="submit-btn" name="submit" value="Make reservation">
                 </form>
             </div>
     </div>
     <footer class="container7">
-        <div class="dine-div">
-            <h2 class="light-bg-h2 dine-text">dine</h2>
+        <div class="dine-div res-dine">
+            <h2 class="light-bg-h2 dine-text f-dine">dine</h2>
         </div>
         <div class="address">
-            <p>Marthwaite, Sedbergh Cumbria</p>
-            <p class="contact">+00 44 123 4567</p>
+            <p class="footer-p">Marthwaite, Sedbergh Cumbria</p>
+            <p class="contact footer-p">+00 44 123 4567</p>
         </div>
         <div class="time address">
-            <p>Open Times</p>
-            <p>Mon - Fri: 09:00 AM - 10:00 PM</p>
-            <p>Sat - Sun: 09:00 AM - 11:30 PM</p>
+            <p class="footer-p">Open Times</p>
+            <p class="footer-p">Mon - Fri: 09:00 AM - 10:00 PM</p>
+            <p class="footer-p">Sat - Sun: 09:00 AM - 11:30 PM</p>
         </div>
     </footer>
 </body>
