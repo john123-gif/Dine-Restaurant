@@ -24,6 +24,9 @@ Users should be able to:
 -View photos and details on clicked tabs of the event.
 -provide required format of email and empy fields on submision of booking form.
 
+## LINK
+https://john123-gif.github.io/Dine-Restaurant/
+
 ## My process
 I used divs for grouping element, giving them class names helped me style them with css properties.
 With the use of index and position absolute/relative properties on svg's and images I positioned images and svg's in precise areas of the webpage.
